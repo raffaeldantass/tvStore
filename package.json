@@ -1,0 +1,42 @@
+{
+  "name": "tvstore",
+  "version": "0.1.0",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "@babel/preset-react": "^7.0.0-beta.40",
+    "babel-loader": "8.0.0-beta.0",
+    "concurrently": "^3.5.1",
+    "eslint": "^4.18.2",
+    "eslint-plugin-html": "^4.0.2",
+    "eslint-plugin-react": "^7.7.0",
+    "nightwatch": "^0.9.21",
+    "stylint": "^1.5.9",
+    "stylus": "^0.54.5",
+    "uglifyjs-webpack-plugin": "^1.2.3",
+    "webdriverio": "^4.13.1",
+    "webpack": "^4.1.1",
+    "webpack-bundle-analyzer": "^2.11.1",
+    "webpack-cli": "^2.0.11",
+    "webpack-dev-middleware": "^3.0.1",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-hot-middleware": "^2.21.2",
+    "webpack-merge": "^4.1.2"
+  },
+  "scripts": {
+    "build": "set NODE_ENV=production && node_modules/.bin/webpack --config webpack-configs/prod.config.js",
+    "start:webpack": "set NODE_ENV=development node && node_modules/.bin/webpack-dev-server --config webpack-configs/dev.config.js",
+    "start:stylus": "node_modules/.bin/stylus src/assets/styles/main.styl -o public/assets/styles/main.css -c -w",
+    "start": "node_modules/.bin/concurrently \"yarn start:webpack\" \"yarn start:stylus\"",
+    "lint:stylus": "node_modules/.bin/stylint src/assets/styles/",
+    "lint:javascript": "node_modules/.bin/eslint src/",
+    "lint": "yarn run lint:stylus && yarn run lint:javascript"
+  }
+}
