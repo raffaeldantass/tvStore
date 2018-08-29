@@ -28,16 +28,16 @@ TVStore
 			ASSETS
 				IMG
 					TVS
-							samsung_01.jpeg
-							philips_02.jpg
-							lg_03.jpg
-							lg_04.jpg
-							sony_05.jpg
-							sony_06.jpg
-							samsung_07.jpg
-							lg_08.jpg
-							sony_09.jpg
-							lg_10.jpg
+						samsung_01.jpeg
+						philips_02.jpg
+						lg_03.jpg
+						lg_04.jpg
+						sony_05.jpg
+						sony_06.jpg
+						samsung_07.jpg
+						lg_08.jpg
+						sony_09.jpg
+						lg_10.jpg
 					checkout.svg
 					logo.svg
 				STYLES
