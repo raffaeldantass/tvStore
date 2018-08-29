@@ -20,6 +20,7 @@
 ``` ~ yarn start ```
 
 ## 2) Folder Structure
+
 ```
 TVStore
     JSON
