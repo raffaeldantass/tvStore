@@ -1,0 +1,154 @@
+{
+	"data": [
+		{
+				"id": 1,
+				"product_image": "http://localhost:8000/assets/img/tvs/samsung_01.jpeg",
+				"product_name": "TV Samsung 42'",
+				"product_price": 1200,
+				"details": [
+					{
+						"brand": "Samsung",
+						"model": "675BB05",
+						"tv_inch_size": "42",
+						"tv_type": "Plasma",
+						"description": "TV Plasma de 42 polegadas Samsung True Color de 2014" 
+					}
+				]
+			},
+			{
+				"id": 2,
+				"product_image": "http://localhost:8000/assets/img/tvs/philips_02.jpg",
+				"product_name": "TV Philips 32'",
+				"product_price": 700,
+				"details": [
+					{
+						"brand": "Philips",
+						"model": "897TTY",
+						"tv_inch_size": "32",
+						"tv_type": "LCD",
+						"description": "TV LCD de 32 polegadas Philips Smart Watch de 2015" 
+					}
+				]
+			},
+			{
+				"id": 3,
+				"product_image": "http://localhost:8000/assets/img/tvs/lg_03.jpg",
+				"product_name": "TV LG 48'",
+				"product_price": 1500,
+				"details": [
+					{
+						"brand": "LG",
+						"model": "908LG48",
+						"tv_inch_size": "48",
+						"tv_type": "OLED",
+						"description": "TV Oled de 48 polegadas LG Smart TV Premium Series de 2017" 
+					}
+				]
+			},
+			{
+				"id": 4,
+				"product_image": "http://localhost:8000/assets/img/tvs/lg_04.jpg",
+				"product_name": "TV LG 42'",
+				"product_price": 1300,
+				"details": [
+					{
+						"brand": "LG",
+						"model": "14LG42",
+						"tv_inch_size": "42",
+						"tv_type": "Plasma",
+						"description": "TV Plasma de 42 polegadas LG Smart TV de 2017" 
+					}
+				]
+			},
+			{
+				"id": 5,
+				"product_image": "http://localhost:8000/assets/img/tvs/sony_05.jpg",
+				"product_name": "TV Sony 48'",
+				"product_price": 1600,
+				"details": [
+					{
+						"brand": "Sony",
+						"model": "Bravia134",
+						"tv_inch_size": "48",
+						"tv_type": "LCD",
+						"description": "TV LCD de 48 polegadas Sony Bravia de 2016" 
+					}
+				]
+			},
+			{
+				"id": 6,
+				"product_image": "http://localhost:8000/assets/img/tvs/sony_06.jpg",
+				"product_name": "TV Sony 42'",
+				"product_price": 1400,
+				"details": [
+					{
+						"brand": "Sony",
+						"model": "Bravia4765",
+						"tv_inch_size": "42",
+						"tv_type": "OLED",
+						"description": "TV Oled de 42 polegadas Sony Bravia Compact de 2016" 
+					}
+				]
+			},
+			{
+				"id": 7,
+				"product_image": "http://localhost:8000/assets/img/tvs/samsung_07.jpeg",
+				"product_name": "TV Samsung 64'",
+				"product_price": 2400,
+				"details": [
+					{
+						"brand": "Sony",
+						"model": "TY675GG",
+						"tv_inch_size": "64",
+						"tv_type": "LCD",
+						"description": "TV LCD de 64 polegadas Samsung Elegant Smart de 2016" 
+					}
+				]
+			},
+			{
+				"id": 8,
+				"product_image": "http://localhost:8000/assets/img/tvs/lg_08.jpg",
+				"product_name": "TV LG 48'",
+				"product_price": 2000,
+				"details": [
+					{
+						"brand": "LG",
+						"model": "14LG48",
+						"tv_inch_size": "48",
+						"tv_type": "OLED",
+						"description": "TV Oled de 48 polegadas LG Smart Watch de 2018" 
+					}
+				]
+			},
+			{
+				"id": 9,
+				"product_image": "http://localhost:8000/assets/img/tvs/sony_09.jpg",
+				"product_name": "TV Sony 32'",
+				"product_price": 900,
+				"details": [
+					{
+						"brand": "Sony",
+						"model": "Premium987ST",
+						"tv_inch_size": "32",
+						"tv_type": "OLED",
+						"description": "TV Oled de 32 polegadas Sony Premium de 2018" 
+					}
+				]
+			},
+			{
+				"id": 10,
+				"product_image": "http://localhost:8000/assets/img/tvs/lg_10.jpg",
+				"product_name": "TV LG 48'",
+				"product_price": 1800,
+				"details": [
+					{
+						"brand": "LG",
+						"model": "767LG09",
+						"tv_inch_size": "48",
+						"tv_type": "LCD",
+						"description": "TV LCD de 48 polegadas LG Gold de 2017" 
+					}
+				]
+			}
+	]
+}

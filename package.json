@@ -37,6 +37,7 @@
     "start": "node_modules/.bin/concurrently \"yarn start:webpack\" \"yarn start:stylus\"",
     "lint:stylus": "node_modules/.bin/stylint src/assets/styles/",
     "lint:javascript": "node_modules/.bin/eslint src/",
-    "lint": "yarn run lint:stylus && yarn run lint:javascript"
+    "lint": "yarn run lint:stylus && yarn run lint:javascript",
+    "json": "json-server --watch json/product-list.json"
   }
 }
