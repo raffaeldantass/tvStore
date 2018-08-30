@@ -11,7 +11,7 @@ class Home extends Component {
 		}
 	}
 
-	componentWillMount() {
+	componentDidMount() {
 		axios
 			.get('http://localhost:3000/data')
   		.then(response => {
@@ -19,6 +19,7 @@ class Home extends Component {
 					return (
 						<Card 
 							key = { data.id }
+							alt_description = { data.alt_description }
 							product_image = { data.product_image } 
 							product_name  = { data.product_name  } 
 							product_price = { data.product_price } 

@@ -1,0 +1,15 @@
+{
+  "name": "Stop & Shop",
+  "short_name": "StopShop",
+  "theme_color": "#8854d0",
+  "background_color": "#3867d6",
+  "display": "standalone",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "assets/img/icon.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+  ]
+}

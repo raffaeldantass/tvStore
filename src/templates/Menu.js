@@ -6,7 +6,7 @@ class Menu extends Component {
 		return (
 			<nav className="menu">
 				<Link to="/">
-					<img className="menu__logo-icon" src="assets/img/logo.svg" alt="Logo da companhia TV Store" />
+					<img className="menu__logo-icon" src="assets/img/logo.png" alt="Logo da companhia Stop and Shop" />
 				</Link>
 				<img className="menu__checkout-icon" src="assets/img/checkout.svg" alt="Icone do Carrinho de compras" />
 			</nav>
