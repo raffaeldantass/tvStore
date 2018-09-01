@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import Card from '../templates/Card'
 import axios from 'axios'
 
@@ -17,13 +18,14 @@ class Home extends Component {
   		.then(response => {
 				const cardList = response.data.map(data => {
 					return (
-						<Card 
-							key = { data.id }
-							alt_description = { data.alt_description }
-							product_image = { data.product_image } 
-							product_name  = { data.product_name  } 
-							product_price = { data.product_price } 
-						/>
+						<Link key = { data.id } className="home__link" to={`/detalhes/${data.id}`}>
+							<Card 
+								alt_description = { data.alt_description }
+								product_image = { data.product_image } 
+								product_name  = { data.product_name  } 
+								product_price = { data.product_price } 
+							/>
+						</Link>
 					)
 				})
 				this.setState({ listarCards: cardList})
