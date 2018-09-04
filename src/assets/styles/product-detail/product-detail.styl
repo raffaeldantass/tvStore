@@ -11,8 +11,8 @@
   display: grid
   align-items: center
   grid-template-columns: 1.2fr .8fr
-  grid-template-rows: .2fr .2fr .6fr .3fr
-  grid-template-areas: "product-image product-title" "product-image product-price" "product-image product-description" "product-image product-button"
+  grid-template-rows: .2fr .2fr .6fr .3fr .3fr .3fr .3fr .3fr
+  grid-template-areas: "product-image product-title" "product-image product-price" "product-image product-brand" "product-image product-model" "product-image product-tv-inch" "product-image product-tv-type" "product-image product-description" "product-image product-button"
   width: 80%
   min-height: calc(var(--main-height, 100vh) - 200px)
 }
@@ -39,6 +39,22 @@
   margin: 10px
   font-size: 20px
   color: #1e272e
+}
+
+.product-detail__brand {
+  grid-area: product-brand  
+}
+
+.product-detail__model {
+  grid-area: product-model  
+}
+
+.product-detail__tv-inch {
+  grid-area: product-tv-inch 
+}
+
+.product-detail__tv-type {
+  grid-area: product-tv-type
 }
 
 .product-detail__description {
