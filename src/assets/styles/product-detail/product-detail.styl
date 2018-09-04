@@ -5,16 +5,17 @@
   margin: 0 auto
   width: 100%
   max-width: 1200px
+  min-height calc(var(--main-height, 100vh) - 200px)
 }
 
 .product-detail__wrapper {
   display: grid
   align-items: center
   grid-template-columns: 1.2fr .8fr
-  grid-template-rows: .2fr .2fr .6fr .3fr .3fr .3fr .3fr .3fr
+  grid-template-rows: .3fr .1fr .1fr .1fr .1fr .1fr .6fr .3fr
   grid-template-areas: "product-image product-title" "product-image product-price" "product-image product-brand" "product-image product-model" "product-image product-tv-inch" "product-image product-tv-type" "product-image product-description" "product-image product-button"
   width: 80%
-  min-height: calc(var(--main-height, 100vh) - 200px)
+  min-height: 400px
 }
 
 .product-detail__image {
@@ -42,26 +43,30 @@
 }
 
 .product-detail__brand {
-  grid-area: product-brand  
+  grid-area: product-brand
+  margin: 10px  
 }
 
 .product-detail__model {
-  grid-area: product-model  
+  grid-area: product-model
+  margin: 10px  
 }
 
 .product-detail__tv-inch {
-  grid-area: product-tv-inch 
+  grid-area: product-tv-inch
+  margin: 10px 
 }
 
 .product-detail__tv-type {
   grid-area: product-tv-type
+  margin: 10px
 }
 
 .product-detail__description {
   grid-area: product-description
-  align-self: flex-start
+  align-self: center
   color: #1e272e
-  margin: 0 20px 0 0
+  margin: 0 20px 0 10px
 }
 
 .product-detail__button {
@@ -69,6 +74,7 @@
   align-self: flex-start
   border-radius: 8px
   border: none
+  margin: 5px 10px
   width: 200px
   height: 60px
   color: #ffffff

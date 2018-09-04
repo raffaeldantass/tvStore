@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Home from './views/Home';
 import Menu from './templates/Menu';
 import Footer from './templates/Footer';
-import ProductDetail from './views/ProductDetails';
+import Home from './views/Home';
 import Cart from './views/Cart';
+import ProductDetail from './views/ProductDetails';
 
 class Store extends Component {
 	render() {
@@ -14,7 +14,7 @@ class Store extends Component {
 				<main className="main">
 					<Switch>
 						<Route exact path="/" component={ Home } />
-						<Route path="/detalhes/:id" component={ ProductDetail } />
+						<Route path="/products/:id" component={ ProductDetail } />
 						<Route path="/carrinho" component={ Cart } />
 					</Switch>
 				</main>

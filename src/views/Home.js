@@ -20,10 +20,7 @@ class Home extends Component {
 				const cardList = response.data.map(data => {
 					return (
 						<Link 
-							key = { data.id } className="home__link" to={{
-							pathname: `/detalhes/${data.id}`,
-							id: data.id
-							}}>
+							key = { data.id } className="home__link" to={`products/${data.id}`}>
 							<Card 
 								alt_description = { data.alt_description }
 								product_image = { data.product_image } 
