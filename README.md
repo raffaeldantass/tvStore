@@ -7,7 +7,7 @@
 	~ mkdir tvStore
 	~ cd tvStore 
 	~ git init
-	~ git clone url_of_this_repo
+	~ git clone https://github.com/raffaeldantass/tvStore
 	```
 
 - Install the whole structure
